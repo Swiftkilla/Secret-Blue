@@ -23,8 +23,7 @@ import datetime
 
 # Enable logging
 log.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                level=log.INFO,
-                filename='../logs/logging.log')
+                level=log.INFO,)
 
 logger = log.getLogger(__name__)
 
