@@ -1,9 +1,6 @@
-# Telegram Bot for the card game Secret Blue
+# Telegram Bot for the card game Secret Swiftler
 This is a simple Telegram Bot for the political (and in my opinion highly entertaining and educational) card game [Secret Hitler](http://secrethitler.com/).
-Go check out this awesome game and support the creators!
-
-## Why the name change?
-The original game is called "Secret Hitler" and is meant as an entertaining but also educational game which can also be a warning about the takeover of fascist regimes. Since some people might only read the title and don't get the full idea behind this game I want to avoid any confusion about my intentions with this bot and decided to change the name. 
+Go check out this awesome game and support the creators! 
 
 ## Start a game
 Unfortunately I don't have the time to to maintain and host the bot any longer. So if you want to play I suggest you start your own instance of the bot. [Here](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Hosting-your-bot) you can find information about hosting a telegram bot.
