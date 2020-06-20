@@ -15,7 +15,7 @@ class Board(object):
         self.previous = []
 
     def print_board(self):
-        board = "--- Liberal acts ---\n"
+        board = "--- Labour acts ---\n"
         for i in range(5):
             if i < self.state.liberal_track:
                 board += u"\u2716\uFE0F" + " " #X
@@ -23,7 +23,7 @@ class Board(object):
                 board += u"\U0001F54A" + " " #dove
             else:
                 board += u"\u25FB\uFE0F" + " " #empty
-        board += "\n--- Fascist acts ---\n"
+        board += "\n--- Tory acts ---\n"
         for i in range(6):
             if i < self.state.fascist_track:
                 board += u"\u2716\uFE0F" + " " #X
@@ -49,16 +49,16 @@ class Board(object):
             else:
                 board += u"\u25FB\uFE0F" + " " #empty
 
-        board += "\n--- Presidential order  ---\n"
+        board += "\n--- Prime Ministerial order  ---\n"
         for player in self.game.player_sequence:
             board += player.name + " " + u"\u27A1\uFE0F" + " "
         board = board[:-3]
         board += u"\U0001F501"
         board += "\n\nThere are " + str(len(self.policies)) + " policies left on the pile."
         if self.state.fascist_track >= 3:
-            board += "\n\n" + u"\u203C\uFE0F" + " Beware: If Blue gets elected as Chancellor the fascists win the game! " + u"\u203C\uFE0F"
+            board += "\n\n" + u"\u203C\uFE0F" + " Beware: If Swiftler gets elected as Chancellor the Tories win the game! " + u"\u203C\uFE0F"
         if len(self.state.not_blues) > 0:
-            board += "\n\nWe know that the following players are not Blue because they got elected as Chancellor after 3 fascist policies:\n"
+            board += "\n\nWe know that the following players are not Swiftler because they got elected as Chancellor after 3 Tory policies:\n"
             for nh in self.state.not_blues:
                 board += nh.name + ", "
             board = board[:-2]

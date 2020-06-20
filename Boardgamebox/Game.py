@@ -15,13 +15,13 @@ class Game(object):
 
     def get_blue(self):
         for uid in self.playerlist:
-            if self.playerlist[uid].role == "Blue":
+            if self.playerlist[uid].role == "Swiftler":
                 return self.playerlist[uid]
 
     def get_fascists(self):
         fascists = []
         for uid in self.playerlist:
-            if self.playerlist[uid].role == "Fascist":
+            if self.playerlist[uid].role == "Tory":
                 fascists.append(self.playerlist[uid])
         return fascists
 

@@ -2,9 +2,9 @@ playerSets = {
     # only for testing purposes
     3: {
         "roles": [
-            "Liberal",
-            "Fascist",
-            "Blue"
+            "Labourite",
+            "Tory",
+            "Swiftler"
         ],
         "track": [
             None,
@@ -18,10 +18,10 @@ playerSets = {
     # only for testing purposes
     4: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Blue"
+            "Labourite",
+            "Labourite",
+            "Tory",
+            "Swiftler"
         ],
         "track": [
             None,
@@ -34,11 +34,11 @@ playerSets = {
     },
     5: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Blue"
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Tory",
+            "Swiftler"
         ],
         "track": [
             None,
@@ -51,12 +51,12 @@ playerSets = {
     },
     6: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Blue"
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Tory",
+            "Swiftler"
         ],
         "track": [
             None,
@@ -69,13 +69,13 @@ playerSets = {
     },
     7: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Fascist",
-            "Blue"
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Tory",
+            "Tory",
+            "Swiftler"
         ],
         "track": [
             None,
@@ -88,14 +88,14 @@ playerSets = {
     },
     8: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Fascist",
-            "Blue"
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Tory",
+            "Tory",
+            "Swiftler"
         ],
         "track": [
             None,
@@ -108,15 +108,15 @@ playerSets = {
     },
     9: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Fascist",
-            "Fascist",
-            "Blue"
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Tory",
+            "Tory",
+            "Tory",
+            "Swiftler"
         ],
         "track": [
             "inspect",
@@ -129,16 +129,16 @@ playerSets = {
     },
     10: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Fascist",
-            "Fascist",
-            "Blue"
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Labourite",
+            "Tory",
+            "Tory",
+            "Tory",
+            "Swiftler"
         ],
         "track": [
             "inspect",
@@ -152,21 +152,21 @@ playerSets = {
 }
 
 policies = [
-        "liberal",
-        "liberal",
-        "liberal",
-        "liberal",
-        "liberal",
-        "liberal",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist"
+        "Labour",
+        "Labour",
+        "Labour",
+        "Labour",
+        "Labour",
+        "Labour",
+        "Tory",
+        "Tory",
+        "Tory",
+        "Tory",
+        "Tory",
+        "Tory",
+        "Tory",
+        "Tory",
+        "Tory",
+        "Tory",
+        "Tory"
     ]
